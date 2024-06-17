@@ -43,19 +43,19 @@ const createPokemonCard = (pokemon) => {
     pokemonEl.style.backgroundColor = color;
 
     const pokemonInnerHTML = `
-  <div class="img-container">
-      <img
+    <div class="img-container">
+    <img
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg"
         alt="${pokemonName}"
         />
         
-  </div>
-  <div class="info">
+    </div>
+    <div class="info">
     <span class="number">#${pokemonId}</span>
     <h3 class="name">${pokemonName}</h3>
     <small class="type">Type: <span>${type}</span> </small>
-  </div>
-  `;
+    </div>
+    `;
     pokemonEl.innerHTML = pokemonInnerHTML;
     pokeContainer.appendChild(pokemonEl);
 };
