@@ -5,20 +5,18 @@
 
 ## Description
 
--   Pokemon Pokedex using HTML + CSS
+# Pokedex Project
 
-# Pokedex Projekt
+A simple Pokedex project built with HTML and CSS, connected to an API using JavaScript. The project displays basic information about various Pokémon and their characteristics.
 
-Ein einfaches Pokedex-Projekt, das mit HTML und CSS erstellt wurde und eine API nutzt, um Pokémon-Daten abzurufen und anzuzeigen. Das Projekt zeigt grundlegende Informationen über verschiedene Pokémon und ihre Eigenschaften.
+## Features
 
-## Funktionen
+-   Display a list of Pokémon
+-   Detailed information about each Pokémon
+-   Search function by Pokémon name
+-   Responsive design for different screen sizes
 
--   Anzeige einer Liste von Pokémon
--   Detaillierte Informationen zu jedem Pokémon
--   Suchfunktion nach Pokémon-Namen
--   Responsive Design für verschiedene Bildschirmgrößen
-
-## Technologien
+## Technologies
 
 -   HTML
 -   CSS
@@ -27,7 +25,7 @@ Ein einfaches Pokedex-Projekt, das mit HTML und CSS erstellt wurde und eine API 
 
 ## Installation
 
-1. Klone das Repository:
+1. Clone the repository:
     ```bash
     git clone https://github.com/DBaku/poke_api_dex_css.git
     ```
